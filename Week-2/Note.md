@@ -28,6 +28,6 @@
 #####Regression ML block diagram
 * Feature extractor
 * Some set of parameters have the weights on features, coefficients
-* Error metric
-* 
+* Error metric, residual sum of sqaures
+* Training data set, feature extraction process, machine learning model, prediction, quality measure
 * 
