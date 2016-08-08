@@ -13,7 +13,7 @@
 7. f(x) = w0+w1*x+w2*(x^2) with quandrtic curve and go through (0,0). w0 will be zero
 
 8. Error curve and model complexity. 
-*trainig error contibue keep decreasing
-*test error goes down first and then keep up
+| trainig error contibue keep decreasing
+| test error goes down first and then keep up
 
 9. One always prefers to use a model with more features since it better captures the true underlying process. F
