@@ -4,7 +4,7 @@
 * Sum over all the difference and try to find the best line, which minimize the residual sum of squares.
 * Resulting W and W hat, the set of W hat zero, and W hat one, intercept and slope
 
-######Linear relationship
+#####Linear relationship
 * Quadratic fit still called linear regression
 * 13th order polynomial, overfitting
 * Simulating predictions, training set(use as a proxy for predictions) and testing set(hold out)
@@ -12,6 +12,22 @@
 * Training error: sum of residual squares in the training set
 * Test error: for hold out test 
 
+#####Training/Test curves
+* Have trainging error decreases with increasing model order
+* Have test error decreases at first and then increase again in the curve
 
-######Training/Test curves
+#####Adding features
+* Fitting a hyper plane
+
+#####Regression applications
+* Predict salary after taking machine learning specialization
+* Predict stock price
+* Predict sitting on Twitter
+* Predict the temprature for a smart house
+
+#####Regression ML block diagram
+* Feature extractor
+* Some set of parameters have the weights on features, coefficients
+* Error metric
+* 
 * 
