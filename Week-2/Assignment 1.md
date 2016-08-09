@@ -1,11 +1,11 @@
-1. Selection and summary statistics: We found the zip code with the highest average house price. What is the average house price of that zip code?
++ 1. Selection and summary statistics: We found the zip code with the highest average house price. What is the average house price of that zip code?
 
 sales = graphlab.SFrame('home_data.gl/')
 high = sales[sales['zipcode'=='98039']]
 high['price'].mean()
 2160606.5999999996
 
-2. Filtering data: What fraction of the houses have living space between 2000 sq.ft. and 4000 sq.ft
++ 2. Filtering data: What fraction of the houses have living space between 2000 sq.ft. and 4000 sq.ft
 
 inRange = sales[(sales['sqft_living']>=2000) & (sales['sqft_living']<=4000)]
 
@@ -18,7 +18,7 @@ sales.num_rows()
 42.66%
 
 
-3. Building a regression model with several more features: What is the difference in RMSE between the model trained with my_features and the one trained with advanced_features?
++ 3. Building a regression model with several more features: What is the difference in RMSE between the model trained with my_features and the one trained with advanced_features?
 
 my_features = ['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors', 'zipcode']
 my_features_model = graphlab.linear_regression.create(train_data,target='price',features=my_features,validation_set=None)
