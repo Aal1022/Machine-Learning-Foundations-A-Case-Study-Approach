@@ -1,6 +1,6 @@
 1. Selection and summary statistics: We found the zip code with the highest average house price. What is the average house price of that zip code?
 
-* Load some house sales data
++ Load some house sales data
 sales = graphlab.SFrame('home_data.gl/')
 
 
