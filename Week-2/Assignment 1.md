@@ -1,8 +1,11 @@
 + 1. Selection and summary statistics: We found the zip code with the highest average house price. What is the average house price of that zip code?
 
 sales = graphlab.SFrame('home_data.gl/')
+
 high = sales[sales['zipcode'=='98039']]
+
 high['price'].mean()
+
 2160606.5999999996
 
 + 2. Filtering data: What fraction of the houses have living space between 2000 sq.ft. and 4000 sq.ft
